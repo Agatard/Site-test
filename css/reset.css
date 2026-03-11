@@ -1,0 +1,40 @@
+/* 1. Box-sizing plus logique pour tous les éléments */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. Amélioration de la lisibilité du texte */
+body {
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased; /* pour un texte plus net sur Mac */
+}
+
+/* 3. Images et médias responsives */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* 4. Formulaires héritent de la police du body */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 5. Listes sans styles par défaut */
+ul,
+ol {
+  list-style: none;
+}

@@ -1,17 +1,161 @@
-<!DOCTYPE html>
-<html>
-
+<!doctype html>
+<html lang="fr">
 <head>
-    <title>L'atelier de Tiffanie</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="description" content="Créations de couture à la main">
+  <title>L'atelier de Tiffanie</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cookie&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+
+
 </head>
 
 <body>
+  <header class="header">
 
-    <button onclick="bonjour()">Voir mes créations</button>
+    <div>
+        <a href="http://127.0.0.1:5500/index.html" >
+          <img class="logo" src="images/logo.png" alt="">
+        </a>
+    </div>
 
-<script src="script.js"></script>
+<!-- Menu présent dans le header du site -->
+
+    <div class="menu">  
+      <ul id="listemenu">
+        <li id="accueil">
+          <a href="http://127.0.0.1:5500/index.html">ACCUEIL</a>
+        </li>
+
+        <li id="a_propos">
+          <a href="">A PROPOS</a>
+        </li>
+
+        <li id="creations">
+          <a href="">CREATIONS</a>
+        </li>
+
+        <li id="contact">
+          <a href="">CONTACT</a>
+        </li> 
+      </ul>
+    </div>
+      
+  </header>
+  
+   <!-- Image l'atelier de Tiffanie juste sous le header -->
+    
+  <main class="main">
+    <div class="mainimage">
+        <img src="images/latelierdetiffanie.png" alt="L'atelier de Tiffanie">
+    </div>
+    <span class="span"></span>
+    
+     <!-- Vignette des produits créés -->
+
+    <div class="products">
+
+      <figure class="sac_banane">
+        <img src="images/sac_banane.png" alt="Sac banane" class="img_prez">
+        <figcaption class="fig_caption">
+          <h3>SAC BANANE</h3>
+          <a class="voir_plus" href="">Voir plus</a>
+        </figcaption>
+      </figure>
+
+      <figure class="pochette">
+        <img src="images/pochette.png" alt="Pochette" class="img_prez">
+        <figcaption class="fig_caption">
+          <h3>POCHETTE</h3>
+          <a class="voir_plus" href="">Voir plus</a>
+        </figcaption>
+      </figure>
+
+      <figure class="sac_dos">
+        <img src="images/sac_dos.png" alt="Sac à dos" class="img_prez">
+        <figcaption class="fig_caption">
+          <h3>SAC A DOS</h3>
+          <a class="voir_plus" href="">Voir plus</a>
+         </figcaption>
+        </figure>
+
+      <figure class="veste">
+        <img src="images/veste.png" alt="Veste" class="img_prez">
+        <figcaption class="fig_caption">
+          <h3>VESTE</h3>
+          <a class="voir_plus" href="">Voir plus</a>
+        </figcaption>
+      </figure>
+    </div>
+
+     <!-- Message de bienvenue sur le site -->
+
+    <div class="profil">
+        <img src="images/dernieres_crea.jpg" alt="Bananes d'été">
+        <div class="presentation">
+          <h2 class="titre">L'ATELIER DE TIFFANIE</h2>
+          <div class="bienvenue"> Soyez les bienvenus dans mon univers ! Je vous souhaite une belle découverte.
+            <div class="contact">
+              <a href="">
+                <img src="images/contact.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+    </div>
+
+   <!-- Les dernières créations de couture -->
+
+    <span class="titre_main_mid_page">LES DERNIERES REALISATIONS</span>
+
+    <div class="wrapper swiper">
+      <div class="wrapper-inner swiper-wrapper">
+        <div class="slide swiper-slide">
+          <img src="images/slide_1.png" alt="" class="img_slider">
+          <div class="btn_commande">
+            <button>Je passe commande</button>
+          </div>
+        </div>
+
+        <div class="slide swiper-slide">
+          <img src="images/slide_2.png" alt="" class="img_slider">
+          <div class="btn_commande">
+            <button>Je passe commande</button>
+          </div>
+        </div>
+
+        <div class="slide swiper-slide">
+          <img src="images/slide_3.jpg" alt="" class="img_slider">
+          <div class="btn_commande">
+            <button>Je passe commande</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="form">
+  <iframe
+    loading="lazy"
+    src="https://www.google.com/maps?q=Saint-Augustin-des-Bois+France&output=embed">
+  </iframe>
+    </div>
+  
+  </main>
+
+  <footer>
+  </footer>
 
 </body>
 
 </html>
+
