@@ -62,9 +62,30 @@
     width: 500px;
 }
 
-.span{
-    background-color:#f9dfd3;
-    height: 20px;
+.bandeau{
+    padding: 20px;
+    background-color:#193266;
+}
+.bandeau h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d59f52;
+    text-decoration: none;
+    font-family: "Raleway", Sans-serif;
+    font-weight:initial;
+    font-style: normal;
+}
+
+.bandeau h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d59f52;
+    text-decoration: none;
+    font-family: "Raleway", Sans-serif;
+    font-weight:initial;
+    font-style: normal;
 }
 
 /* Image L'atelier de Tiffanie */
@@ -243,3 +264,62 @@
 .slide .btn_commande button:hover{
     background-color: #f9dfd3;
     }
+
+.before_footer_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:  url("/images/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.before_footer_box_child{
+    margin-top: 40px;
+    background-color: #193166d6;
+    width: 1200px;
+}
+
+.contact_bf_box{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: "Raleway", Sans-serif;
+    font-weight:initial;
+    font-style: normal;
+    color: white;
+    margin-top: 40px;
+}
+
+.before_footer_box_child_3{
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.before_footer_box_a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-small;
+    color: #d59f52;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.iframe{
+    display: block;
+    width: 900px;
+    height: 300px;
+    margin: 0 auto 40px auto;
+    border: 0;
+}
+
+.logo_contact{
+    font-size:500%;
+    color: #d59f52;
+}
